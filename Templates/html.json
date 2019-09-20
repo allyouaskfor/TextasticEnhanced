@@ -1,0 +1,11 @@
+{
+	"uuid": "74C6D420-A016-4659-AF92-B5CCC1AE53BB",
+	"category": "HTML",
+	"templates": [
+		{
+			"name": "HTML5",
+			"fileExtension": "html",
+			"snippet": "<!doctype html>\n<html>\n\t<head>\n\n\t\t<meta charset=\"utf-8\">\n\n\t\t<title>${1:untitled}<\/title>\n\n\t<\/head>\n\n\t<body>\n\n\t\t$0 $UUID\n\n\t<\/body>\n<\/html>"
+		}
+	]
+}

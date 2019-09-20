@@ -1,0 +1,11 @@
+{
+	"uuid": "D2701A4E-042C-43DB-8F41-060E980BE75B",
+	"category": "Custom",
+	"templates": [
+		{
+			"name": "Javascript",
+			"fileExtension": "js",
+			"snippet": "'use strict';\n\n${1:function ${2:funcName}(${3:args}) {\n\t${4:// funcDo}\n}}\n\n\n$0"
+		}
+	]
+}
