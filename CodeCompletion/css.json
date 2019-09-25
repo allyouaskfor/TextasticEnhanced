@@ -168,6 +168,13 @@
 			]
 		},
 		{
+		    "name": "css.properties.wasMissing",
+		    "defaultAppend": ": $0;",
+		    "strings": [
+		        "place-items",
+		    ]
+		}
+		{
 			"name": "css.properties.css3",
 			"defaultAppend": ": $0;",
 			"strings": [
@@ -278,7 +285,8 @@
 			"completionCaptureIndex": 1,
 			"completionSetNames": [
 				"css.properties",
-				"css.properties.css3"
+				"css.properties.css3",
+				"css.properties.wasMissing"
 			]
 		},
 		{

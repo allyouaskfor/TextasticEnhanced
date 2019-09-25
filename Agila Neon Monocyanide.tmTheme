@@ -21,9 +21,9 @@
         <key>background</key>
         <string>#073642</string>    <!-- dark teal -->
         <key>divider</key>
-        <string>#586e75</string>    <!-- light blue/gray -->
+        <string>#586e75</string>    <!-- teal -->
         <key>foreground</key>
-        <string>#839496</string>    <!-- almost white/blue -->
+        <string>#839496</string>    <!-- light teal -->
         <key>selectionBackground</key>
         <string>#586e75</string>
         <key>selectionForeground</key>
