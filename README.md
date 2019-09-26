@@ -14,6 +14,7 @@ These are files that I use on my iPad in the Textastic app. I have taken the ori
 - **css.json** — _No changes_
     
 #### Theme
-- **Agila Neon Monocyanide.tmTheme** — _Colour tweaks. Plans to remove any unused components._
+- ~~**Agila Neon Monocyanide.tmTheme** — _Colour tweaks. Plans to remove any unused components._~~
+- **Bracula.tmTheme** — _Modified version of the Dracula theme. Changed the name slightly to avoid potential confusion._
     
 ##### All credits towards the original creators and thank you for the hard work put into everything.   
