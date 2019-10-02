@@ -5,7 +5,7 @@
 	"completionSets": [
 		{
 			"name": "html.tags.with-newline",
-			"defaultAppend": ">\n$0\n</$COMPLETION>",
+			"defaultAppend": ">\n\t$0\n</$COMPLETION>",
 			"strings": [
 				"html",
 				"body",
@@ -165,24 +165,27 @@
 		},
 		{
 			"name": "html.tags.self-closing",
-			"defaultAppend": " />",
+			"defaultAppend": " />\n$0",
 			"strings": [
 				{
 					"string": "img",
-					"append": " src=\"$1\" $2/>$0"
+					"append": " src=\"$1\" />\n$0"
+				},
+				{
+					"string": "httpequiv",
+					"replace": "<meta http-quiv=\"$1\" content=\"$2\" />\n$0"
 				},
 				{
 					"string": "meta",
-				    // "append": "${1: http-equiv=\"$2\" content=\"$3\"} />"
-					"append": "${1: name=\"$2\" content=\"$3\"} />
+					"append": " name=\"$1\" content=\"$2\"} />\n$0"
 				},
 				{
 					"string": "link",
-					"append": " rel=\"$1\" href=\"$2\" type=\"$3\" $4/>$0"
+					"append": " rel=\"$1\" href=\"$2\" />\n$0"
 				},
 				{
 					"string": "input",
-					"append": " type=\"$1\" name=\"$2\" value=\"$3\" />$0"
+					"append": " type=\"$1\" name=\"$2\" value=\"$3\" />\n$0"
 				},
 				"br",
 				"col",
@@ -1155,6 +1158,14 @@
 				"metadata",
 				"none"
 			]
+		},
+		{
+		    "name": "html.tags.mine",
+		    "defaultAppend": "\n$0",
+		    "strings": [
+		        { "string": "debug", "replace": "debug>" },
+		        { "string": "dbg", "replace": "debug>" }
+		    ]
 		}
 	],
 
@@ -1168,7 +1179,8 @@
 				"html.tags.with-newline",
 				"html.tags",
 				"html.tags.self-closing",
-				"html.tags.html5"
+				"html.tags.html5",
+				"html.tags.mine"
 			]
 		},
 		{
