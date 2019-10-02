@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>		
 
 <!-- Dracula Theme v1.2.5
 #
@@ -14,7 +14,7 @@
 
 <!-- 
 · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
-·   Bracula.tmTheme
+·   braculuh.tmTheme
 ·
 · - Colour adjustments by canibeanartist (allyouaskfor).
 · - Changed name to avoid confusion with the original
@@ -28,7 +28,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Bracula</string>
+	<string>braculuh, duh.</string>
 	<key>settings</key>
 	<array>
 		<dict>
