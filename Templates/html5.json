@@ -1,0 +1,11 @@
+{
+    "uuid": "457B72B5-9D02-4D5A-B6A3-C530F256E3A5",
+    "category": ".mine",
+    "templates": [
+        {
+            "name": "HTML5",
+            "fileExtension": "html",
+            "snippet": "<!doctype html>\n<html>\n    <head>\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">\n        <title> ${1:untitled} | ${2:ethanpriest} </title>\n        <style>\n            html {\n                width: 100%;\n                height: 100%;\n                margin: 0;\n            }\n        </style>\n    </head>\n    <body>\n\n        <div${6: id=\"${7:id}\"}${8: class=\"${9:class}\"}>\n            $0\n        </div>\n        ${3:<script src=\"${4:../vendor/${5:three.js}}\"></script>}\n    </body>\n</html>\n<!-- $UUID -->"
+        }
+    ]
+}

@@ -1,6 +1,7 @@
 /js.tmBundle/*
 /Dracula.tmTheme
-/CodeCompletion/python.json
+/CodeCompletion/README.md
+/CodeCompletion/css.json
 /goco.json
 /SublimeSyntaxes/*
-/GLSL.tmbundle/*
+/old/*
