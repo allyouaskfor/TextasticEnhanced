@@ -1,6 +1,4 @@
-- ~~js.json fully commented for now.
-    - ~~causing doubles of all completions~~ — **[Resolved]**
-    
+These are all continuous works in progress. Feel free to contribute or make suggestions.
 
 #### Default UUID's for CodeCompletions
 ---
