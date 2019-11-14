@@ -1,5 +1,5 @@
 - ~~js.json fully commented for now.
-    - causing doubles of all completions~~ — **[Resolved]**
+    - ~~causing doubles of all completions~~ — **[Resolved]**
     
 
 #### Default UUID's for CodeCompletions
